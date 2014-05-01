@@ -1,68 +1,29 @@
-Welcome to SlimRoms
-===================
+CandyKat
+===========
+errantzebra845 aka mar5hal
 
 
 Getting Started
 ---------------
 
-To get started with SlimKat, you'll need to get familiar with
-[Git and Repo](http://source.android.com/download/using-repo).
+To get started with Android/CandyKat, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-Please take note that we have two main line branches depending on
-which hardware base your phone is working.
+To initialize your local repository using the CandyKat trees, use a command like this:
 
-If you have a qcom powered device which needs CodeAuroraForum (CAF)
-trees please us the kk4.4-caf branch which pulls for the effected packages
-the correct caf version for you.
+    repo init -u git://github.com/errantzebra845/slim_candykat.git -b ck44
 
-To initialize your local repository using the SlimKat trees, use this command:
+Then to sync up:
 
+    repo sync
 
-for google, exynos and non qcom devices:
+For more information on this Github Organization and how it is structured, 
+please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
 
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b kk4.4
+Disclaimer
+--------
 
+All supported devices are listed on http://www.TheCandyShop.co. This is an active project and may not always be buildible but is constantly being maintained. (please feeel free to join our web forum to leave comments/reports)
 
-for qcom devices which are using CodeAuroraForum trees:
+Enjoi and don't forget about our Sweetener Packs for extra cavities!!!
 
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b kk4.4-caf
-
-
-
-Then sync up with this command:
-
-	repo sync
-
-
-
-Submitting Patches
-------------------
-
-We're open source, and patches are always welcome!
-You can send patches by using these commands:
-
-    cd <workspace>
-    repo start <branch> SlimRoms/<project>
-    cd <project>
-    git add -A
-    git commit -a
-    cd <workspace>
-    repo upload SlimRoms/<project>
-
-Commit your patches in a single commit.
-
-Squash multiple commit using this command:
-
-	git rebase -i HEAD~<# of commits>
-
-If you are going to make extra additions, just repeat steps (Don't repo start again), but instead of
-
-	git commit -a
-
-use
-
-	git commit --amend
-
-Gerrit will recognize it as a new patchset.
-
-To view the status of your and others patches, visit [SlimRoms Code Review](http://gerrit.slimroms.net)
