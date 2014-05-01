@@ -434,12 +434,6 @@
   <!-- New Additions for slim -->
   <project path="vendor/slim" name="errantzebra845/slim_candykat_vendor_slim" remote="github" revision="ck44" />
 
-  <!-- Slim OTA -->
-  <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="kk4.4" />
-
-  <!-- Slim file manager -->
-  <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="kk4.4" />
-
   <!-- DSPManager -->
   <project path="packages/apps/DSPManager" name="SlimRoms/packages_apps_DSPManager" remote="github" revision="kk4.4" />
 
