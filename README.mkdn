@@ -11,7 +11,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the CandyKat trees, use a command like this:
 
-    repo init -u git://github.com/errantzebra845/slim_candykat.git -b ck44
+    repo init -u git://github.com/errantzebra845/candykat.git -b ck44
 
 Then to sync up:
 
