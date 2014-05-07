@@ -52,7 +52,7 @@
   <project path="device/htc/m7spr" name="slim_candykat_device_htc_m7spr" remote="github" revision="ck44" />
   <project path="device/htc/m7vzw" name="slim_candykat_device_htc_m7vzw" remote="github" revision="ck44" />
   <project path="device/htc/m7-common" name="slim_candykat_device_htc_m7-common" remote="github" revision="ck44" />
-  <project path="device/htc/msm8960" name="slim_candykat_device_htc_msm8960" remote="github" revision="ck44" />
+  <project path="device/htc/msm8960" name="SlimRoms_device_htc_msm8960" remote="slim" revision="kk4.4" />
   <project path="device/lge/hammerhead" name="slim_candykat_device_lge_hammerhead" remote="github" revision="ck44" />
   <project path="device/lge/mako" name="slim_candykat_device_lge_mako" remote="github" revision="ck44" />
   <project path="device/sample" name="device/sample" groups="pdk" />
