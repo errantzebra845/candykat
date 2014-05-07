@@ -5,15 +5,8 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-           fetch="https://github.com/"
+           fetch=".."
            review="https://gerrit.slimroms.net/"/>
-           
-  <remote name="candy"
-           fetch="https://github.com/errantzebra845/" /> 
-           
-  <remote name="slim"
-           fetch="https://github.com/slimroms/" /> 
-
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
@@ -46,15 +39,6 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/asus/flo" name="slim_candykat_device_asus_flo" remote="candy" revision="ck44" />
-  <project path="device/asus/grouper" name="slim_candykat_device_asus_grouper" remote="candy" revision="ck44" />
-  <project path="device/htc/m7" name="slim_candykat_device_htc_m7" remote="candy" revision="ck44" />
-  <project path="device/htc/m7spr" name="slim_candykat_device_htc_m7spr" remote="candy" revision="ck44" />
-  <project path="device/htc/m7vzw" name="slim_candykat_device_htc_m7vzw" remote="candy" revision="ck44" />
-  <project path="device/htc/m7-common" name="slim_candykat_device_htc_m7-common" remote="candy" revision="ck44" />
-  <project path="device/htc/msm8960" name="slim_candykat_device_htc_msm8960" remote="candy" revision="ck44" />
-  <project path="device/lge/hammerhead" name="slim_candykat_device_lge_hammerhead" remote="candy" revision="ck44" />
-  <project path="device/lge/mako" name="slim_candykat_device_lge_mako" remote="candy" revision="ck44" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="SlimRoms/android_external_aac" remote="github" revision="kk4.4" />
@@ -122,7 +106,7 @@
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
-  <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" remote="github" revision="kk4.4"  />
+  <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" remote="github" revision="kk4.4" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="SlimRoms/android_external_flac" remote="github" revision="kk4.4"  />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
@@ -306,11 +290,6 @@
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="kk4.4" />
-  <project path="kernel/asus/flo" name="kernel_asus_flo" remote="slim" revision="kk4.4" />
-  <project path="kernel/htc/m7" name="kernel_htc_m7" remote="slim" revision="kk4.4" />
-  <project path="kernel/htc/ms8960" name="kernel_htc_msm8960" remote="slim" revision="kk4.4" />
-  <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="slim" revision="kk4.4" />
-  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="slim" revision="kk4.4" />
   <project path="libcore" name="SlimRoms/platform_libcore" remote="github" revision="kk4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -348,7 +327,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="SlimRoms/packages_apps_Provision" remote="github" revision="kk4.4" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="errantzebra845/slim_packages_apps_Settings" remote="github" revision="ck44" />
+  <project path="packages/apps/Settings" name="errantzebra845/slim_candykat_packages_apps_Settings" remote="github" revision="ck44" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="SlimRoms/packages_apps_SoundRecorder" remote="github" revision="kk4.4" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -452,24 +431,8 @@
 
   <project path="candykat" name="errantzebra845/slim_candykat" remote="github" revision="ck44" />
 
-  <!-- New Additions for CandyKat -->
-  <project path="vendor/candykat" name="errantzebra845/slim_candykat_vendor_candykat" remote="github" revision="ck44" />
-  
-  <!-- Flo/Grouper -->
-  <project path="vendor/asus" name="SlimRoms/proprietary_vendor_asus" remote="github" revision="kk4.4" />
-  <project path="vendor/elan" name="SlimRoms/proprietary_vendor_elan" remote="github" revision="kk4.4" />
-  <project path="vendor/invensense" name="SlimRoms/proprietary_vendor_invensense" remote="github" revision="kk4.4" />
-  <project path="vendor/nvida" name="SlimRoms/proprietary_vendor_nvidia" remote="github" revision="kk4.4" />
-  <project path="vendor/nxp" name="SlimRoms/proprietary_vendor_nxp" remote="github" revision="kk4.4" />
-  <project path="vendor/widevine" name="SlimRoms/proprietary_vendor_widevine" remote="github" revision="kk4.4" />
-
-  <!-- Hammerhead/Mako -->
-  <project path="vendor/lge" name="SlimRoms/proprietary_vendor_lge" remote="github" revision="kk4.4" />
-  <project path="vendor/qcom" name="SlimRoms/proprietary_vendor_qcom" remote="github" revision="kk4.4" />
-  <project path="vendor/broadcom" name="SlimRoms/proprietary_vendor_broadcom" remote="github" revision="kk4.4" />
-  
-  <!-- M7/M7spr/M7vzw -->
-  <project path="vendor/htc" name="SlimRoms/proprietary_vendor_htc" remote="github" revision="kk4.4" />
+  <!-- New Additions for slim -->
+  <project path="vendor/slim" name="errantzebra845/slim_candykat_vendor_slim" remote="github" revision="ck44" />
 
   <!-- DSPManager -->
   <project path="packages/apps/DSPManager" name="SlimRoms/packages_apps_DSPManager" remote="github" revision="kk4.4" />
