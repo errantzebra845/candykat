@@ -5,14 +5,14 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-           fetch=".."
-           review="https://gerrit.slimroms.net/"/>
+           fetch="https://github.com/" />
           
   <remote  name="candy"
            fetch="https://github.com/errantzebra845/" /> 
           
   <remote  name="slim"
-           fetch="https://github.com/SlimRoms/" /> 
+           fetch="https://github.com/SlimRoms/"
+           review="https://gerrit.slimroms.net/"/>
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
