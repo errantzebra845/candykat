@@ -443,42 +443,28 @@
   <!-- New Additions for CandyKat -->
   <project path="device/asus/flo" name="device_asus_flo" revision="ck44" remote="candy" />
   <project path="device/asus/grouper" name="device_asus_grouper" revision="ck44" remote="candy" />
-  <project path="device/htc/m7" name="device_htc_m7" revision="ck44" remote="candy" />
-  <project path="device/htc/m7-common" name="device_htc_m7-common" revision="ck44" remote="candy" />
-  <project path="device/htc/m7spr" name="device_htc_m7spr" revision="ck44" remote="candy" />
-  <project path="device/htc/m7vzw" name="device_htc_m7vzw" revision="ck44" remote="candy" />
-  <project path="device/htc/m8" name="device_htc_m8" revision="ck44" remote="candy" />
-  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" revision="ck44" remote="candy" />
-  <project path="device/htc/s4-common" name="device_htc_s4-common" revision="ck44" remote="candy" />
-  <project path="device/htc/ville" name="device_htc_ville" revision="ck44" remote="candy" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" revision="ck44" remote="candy" />
   <project path="device/lge/mako" name="device_lge_mako" revision="ck44" remote="candy" />
-  <project path="device/qcom/common" name="device_qcom_common" revision="kk4.4" remote="slim" />
-  <project path="device/samsung/tuna" name="device_samsung_tuna" revision="ck44" remote="candy" />
-  <project path="device/sony/amami" name="device_sony_amami" revision="ck44" remote="candy" />
-  <project path="device/sony/common" name="device_sony_common" revision="kk4.4" remote="slim" />
-  <project path="device/sony/rhine-common" name="device_sony_rhine-common" revision="kk4.4" remote="slim" />
-  <project path="device/sony/qcom-common" name="device_sony_qcom-common" revision="kk4.4" remote="slim" />
+  <project path="device/samsung/maguro" name="device_samsung_maguro" revision="ck44" remote="candy" />
+  <project path="device/samsung/toro" name="device_samsung_toro" revision="ck44" remote="candy" />
+  <project path="device/samsung/toroplus" name="device_samsung_toro" revision="ck44" remote="candy" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" revision="kk4.4" remote="slim" />
   <project path="kernel/asus/flo" name="kernel_asus_flo" revision="kk4.4" remote="slim" />
   <project path="kernel/asus/grouper" name="kernel_asus_grouper" revision="kk4.4" remote="slim" />
-  <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" revision="kk4.4" remote="slim" />
-  <project path="kernel/htc/msm8974" name="kernel_htc_msm8974" revision="kk4.4" remote="slim" />
   <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" revision="kk4.4" remote="slim" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" revision="kk4.4" remote="slim" />
   <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" revision="kk4.4" remote="slim" />
-  <project path="kernel/sony/msm8974" name="kernel_sony_msm8974" revision="kk4.4" remote="slim" />
   <project path="vendor/candykat" name="CandyKat/vendor_candykat" remote="github" revision="ck44" />
   <project path="vendor/asus" name="proprietary_vendor_asus" revision="kk4.4" remote="slim" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" revision="kk4.4" remote="slim" />
   <project path="vendor/elan" name="proprietary_vendor_elan" revision="kk4.4" remote="slim" />
-  <project path="vendor/htc" name="proprietary_vendor_htc" revision="kk4.4" remote="slim" />
-  <project path="vendor/invensense" name="proprietary_vendor_invensense" revision="kk4.4" remote="slim" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" revision="kk4.4" remote="slim" />
+  <project path="vendor/invensense" name="proprietary_vendor_invensense" revision="kk4.4" remote="slim" />
   <project path="vendor/lge" name="proprietary_vendor_lge" revision="kk4.4" remote="slim" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" revision="kk4.4" remote="slim" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" revision="kk4.4" remote="slim" />
   <project path="vendor/qcom" name="proprietary_vendor_qcom" revision="kk4.4" remote="slim" />
-  <project path="vendor/sony" name="proprietary_vendor_sony" revision="kk4.4" remote="slim" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" revision="kk4.4" remote="slim" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" revision="kk4.4" remote="slim" />
   
   <!-- DSPManager -->
