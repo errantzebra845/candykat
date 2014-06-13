@@ -456,7 +456,7 @@
   <project path="device/samsung/tuna" name="device_samsung_tuna" revision="kk4.4" remote="slim" />
   <project path="kernel/asus/flo" name="kernel_asus_flo" revision="kk4.4" remote="slim" />
   <project path="kernel/asus/grouper" name="kernel_asus_grouper" revision="kk4.4" remote="slim" />
-  <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" revision="kk4.4" remote="slim" />
+  <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" revision="ck44" remote="candy" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" revision="kk4.4" remote="slim" />
   <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" revision="kk4.4" remote="slim" />
   <project path="vendor/candykat" name="CandyKat/vendor_candykat" remote="github" revision="ck44" />
