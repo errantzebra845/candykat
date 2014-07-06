@@ -463,17 +463,6 @@
   <project path="kernel/lge/mako" name="kernel_lge_mako" revision="kk4.4" remote="slim" />
   <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" revision="kk4.4" remote="slim" />
   <project path="vendor/candykat" name="CandyKat/vendor_candykat" remote="github" revision="ck44" />
-  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" revision="cm-11.0" remote="github" />
-  <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" revision="cm-11.0" remote="github" />
-  <project path="vendor/elan" name="TheMuppets/proprietary_vendor_elan" revision="cm-11.0" remote="github" />
-  <project path="vendor/imgtec" name="TheMuppets/proprietary_vendor_imgtec" revision="cm-11.0" remote="github" />
-  <project path="vendor/invensense" name="TheMuppets/proprietary_vendor_invensense" revision="cm-11.0" remote="github" />
-  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" revision="cm-11.0" remote="github" />
-  <project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" revision="cm-11.0" remote="github" />
-  <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" revision="cm-11.0" remote="github" />
-  <project path="vendor/qcom" name="proprietary_vendor_qcom" revision="ck44" remote="errant" />
-  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" revision="cm-11.0" remote="github" />
-  <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" revision="cm-11.0" remote="github" />
   
   <!-- DSPManager -->
   <project path="packages/apps/DSPManager" name="SlimRoms/packages_apps_DSPManager" remote="github" revision="kk4.4" />
