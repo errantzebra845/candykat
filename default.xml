@@ -449,19 +449,6 @@
   <project path="candykat" name="CandyKat/candykat" remote="github" revision="ck44" />
 
   <!-- New Additions for CandyKat -->
-  <project path="device/asus/flo" name="device_asus_flo" revision="ck44" remote="candy" />
-  <project path="device/asus/grouper" name="device_asus_grouper" revision="ck44" remote="candy" />
-  <project path="device/lge/hammerhead" name="device_lge_hammerhead" revision="ck44" remote="candy" />
-  <project path="device/lge/mako" name="device_lge_mako" revision="ck44" remote="candy" />
-  <project path="device/samsung/maguro" name="device_samsung_maguro" revision="ck44" remote="candy" />
-  <project path="device/samsung/toro" name="device_samsung_toro" revision="ck44" remote="candy" />
-  <project path="device/samsung/toroplus" name="device_samsung_toro" revision="ck44" remote="candy" />
-  <project path="device/samsung/tuna" name="device_samsung_tuna" revision="kk4.4" remote="slim" />
-  <project path="kernel/asus/flo" name="kernel_asus_flo" revision="kk4.4" remote="slim" />
-  <project path="kernel/asus/grouper" name="kernel_asus_grouper" revision="kk4.4" remote="slim" />
-  <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" revision="ck44" remote="candy" />
-  <project path="kernel/lge/mako" name="kernel_lge_mako" revision="kk4.4" remote="slim" />
-  <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" revision="kk4.4" remote="slim" />
   <project path="vendor/candykat" name="CandyKat/vendor_candykat" remote="github" revision="ck44" />
   
   <!-- DSPManager -->
